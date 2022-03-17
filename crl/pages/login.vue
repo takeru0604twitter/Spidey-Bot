@@ -1,9 +1,7 @@
 <template>
     <div>
-        <button class="btn ">Button</button>
-        <button class="btn  btn-primary">Button</button>
-        <button class="btn btn-outline btn-secondary">Button</button>
-        <button class="btn btn-outline btn-accent">Button</button>
+        <a class = link href="http://localhost:3000/register">アカウントをお持ちでない方</a>
+       
     </div>
 </template>
 
