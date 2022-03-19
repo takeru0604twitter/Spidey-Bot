@@ -1,6 +1,6 @@
 <template>
     <div>
-        <a class = link href="http://localhost:3000/register">アカウントをお持ちでない方</a>
+        <a class=" flex juify-center link">アカウントをお持ちでない方</a>
        
     </div>
 </template>
