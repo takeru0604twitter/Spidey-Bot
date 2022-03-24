@@ -18,10 +18,8 @@
                 <input type="text" class="input input-bordered">
             </label>
         </div>
-        <div class="flex justify-center">
-        <button class="btn">login</button>
-        <a class="link">アカウントをお持ちでない方</a>
-        </div>
+        <button class="btn mt-10 flex justify-center ">login</button>
+        <a class="link flex justify-center mt-10 ">アカウントをお持ちでない方</a>
 
 
 
