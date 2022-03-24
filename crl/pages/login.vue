@@ -10,15 +10,17 @@
             </label>
         </div>
         <div class="form-control">
-            <label class="label ">
-                <span class="label-text flex juify-center">Your password</span>
+            <label class="label flex justify-center">
+                <span class="label-text">Your password</span>
             </label>
-            <label class="input-group flex juify-center">
+            <label class="input-group flex justify-center">
                 <span>password</span>
                 <input type="text"  class="input input-bordered">
             </label>
         </div>
-        
+        <button class="btn">login</button>
+        <a class="link">アカウントをお持ちでない方</a>
+
 
     </div>
 </template>
