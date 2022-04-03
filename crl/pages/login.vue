@@ -2,7 +2,7 @@
     <div>
         <div class="form-control mt-56">
             <label class="label flex justify-center">
-                <span class="label-text">>Your email</span>
+                <span class="label-text">Your email</span>
             </label>
             <label class="input-group flex justify-center ">
                 <span>email</span>
