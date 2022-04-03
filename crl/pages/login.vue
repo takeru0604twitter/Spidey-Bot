@@ -22,9 +22,6 @@
             <button class="btn mt-10 -mr-96">login</button>
             <a class="link mt-36 mr-24">アカウントをお持ちでない方</a>
         </div>
-
-
-
     </div>
 </template>
 
