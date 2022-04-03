@@ -18,8 +18,9 @@
         <input type="text" class="input input-bordered">
       </label>
     </div>
-    <button class="btn mt-10 ">作成</button>
-
+    <div class="flex justify-center -mr-72">
+      <button class="btn mt-10 -mr-96">作成</button>
+    </div>
   </div>
 </template>
 

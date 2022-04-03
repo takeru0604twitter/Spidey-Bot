@@ -12,7 +12,7 @@
                 <input type="text" class="input input-bordered">
             </label>
         </div>
-            <div class="flex justify-center -mr-96">
+        <div class="flex justify-center -mr-96">
             <button class="btn mt-10 -mr-96">ログイン</button>
             <a class="link mt-36 mr-24">アカウントをお持ちでない方</a>
         </div>
