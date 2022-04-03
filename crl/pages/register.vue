@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="form-control mt-56">
+    <div class="form-control mt-48">
       <label class="label flex justify-center">
         <span class="label-text">your playertag</span>
       </label>
@@ -27,7 +27,7 @@
         <input type="text" class="input input-bordered">
       </label>
     </div>
-    <button class="btn mt-10 flex justify-center">login</button>
+    <button class="btn mt-10 flex justify-center"></button>
 
   </div>
 </template>
