@@ -38,6 +38,9 @@
       <div class="ml-10">
         {{trophy}}
       </div>
+      <div v-for="card in deck" :key="card.id">
+        <img :src="card.iconUrls.medium">
+      </div>
       </div>
     </div>
 </template>
@@ -91,6 +94,7 @@ export default Vue.extend({
       this.tag = response.data.tag
       this.trophy = response.data.trophies
       this.clan = response.data.clan.name
+      this.deck = response.data.currentDeck
     })
   }
 
