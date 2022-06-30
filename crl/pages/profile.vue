@@ -8,11 +8,11 @@
           </button>
         </div> 
       </div>
-      <div class="ml-48">
+      <div class="ml-32">
         プレイヤー情報
       </div>
       <div class="display flex">
-        <div class="ml-48">
+        <div class="ml-32">
           名前
         </div>
        <div class="ml-16">
@@ -25,8 +25,8 @@
         トロフィー
        </div>
       </div>
-      <div class="display flex mt-5">
-        <div class="ml-48">
+      <div class="display flex mt-2">
+        <div class="ml-32">
           {{ name }}
         </div>
         <div class="ml-10">
@@ -39,12 +39,22 @@
         {{trophy}}
       </div>
       </div>
-      <div class="display flex ">
-      <div v-for="card in deck" :key="card.id" class=" mt-10 mr-6 pr-10 pl-10">
+      <div class="display flex pl-20 pr-20">
+      <div v-for="card in deck" :key="card.id" class=" mt-5 mr-6 pr-10 pl-10">
         <img :src="card.iconUrls.medium">
       </div>
       </div>
-
+      <div class="display flex mt-7">
+        <div class="ml-32">
+          名前
+        </div>
+       <div class="ml-6">
+        クラン名
+        </div>
+       <div class="ml-6">
+        トロフィー
+       </div>
+      </div>
     </div>
 </template>
 
