@@ -18,30 +18,33 @@
        <div class="ml-16">
         クラン名
         </div>
-       <div class="ml-32">
+       <div class="ml-8">
         プレイヤータグ
        </div>
        <div class="ml-6">
         トロフィー
        </div>
       </div>
-      <div class="display flex">
+      <div class="display flex mt-5">
         <div class="ml-48">
           {{ name }}
         </div>
         <div class="ml-10">
           {{clan}}
         </div>
-      <div class="ml-10">
+      <div class="ml-16">
         {{tag}}
       </div>
       <div class="ml-10">
         {{trophy}}
       </div>
-      <div v-for="card in deck" :key="card.id">
+      </div>
+      <div class="display flex ">
+      <div v-for="card in deck" :key="card.id" class=" mt-10 mr-6 pr-10 pl-10">
         <img :src="card.iconUrls.medium">
       </div>
       </div>
+
     </div>
 </template>
 
