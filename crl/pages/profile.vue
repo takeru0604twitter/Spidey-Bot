@@ -55,6 +55,17 @@
         トロフィー
        </div>
       </div>
+       <div class="display flex mt-2">
+       <div class="ml-32">
+         {{ name2 }}
+      </div>
+      <div class="ml-10">
+        {{clan2}}
+       </div>
+      <div class="ml-10">
+        {{trophy2}}
+      </div>
+      </div>
     </div>
 </template>
 
@@ -79,6 +90,9 @@ interface Data {
   tag?: string
   trophy?: string
   deck:Card[]
+  name2?: string
+  clan2?:string
+  trophy2?: string
 }
 
 const token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImZkYmVhYzU4LWI5MjgtNDUzMS05ZTBjLTYzYWNjOGIyMDcwZCIsImlhdCI6MTY1NjA4NDk0MCwic3ViIjoiZGV2ZWxvcGVyLzA5YzJmZmMxLTAyZjItMTI5My1hOWU5LTFmNWI5NTJjZjE5NCIsInNjb3BlcyI6WyJyb3lhbGUiXSwibGltaXRzIjpbeyJ0aWVyIjoiZGV2ZWxvcGVyL3NpbHZlciIsInR5cGUiOiJ0aHJvdHRsaW5nIn0seyJjaWRycyI6WyIyMjMuMjUyLjkzLjE0Il0sInR5cGUiOiJjbGllbnQifV19.KcvNoqCJHuB65Sw-lecRNTnj-MHYXAScnv4TK5rGzMqcbR1RbmndHAakuAAEYmhSLuBDsK1IJEKYmwiLw4PZ6w'
@@ -91,7 +105,10 @@ export default Vue.extend({
       clan: undefined,
       tag: undefined,
       trophy: undefined,
-      deck: []
+      deck: [],
+      name2: undefined,
+      clan2: undefined,
+      trophy2: undefined,
     }
   },
   mounted() {
